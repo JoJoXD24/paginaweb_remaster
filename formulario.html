@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles2.css">
+<body>
+    <div class="nav-bar">
+        
+        <nav class="nav-links">
+            <a href="#"><h1 class="titulo">Bienvenido a mi página web</h1></a>
+            <a href="index.html">Inicio</a>
+            <a href="#">sobre mí</a>
+            <a href="#">Servicios</a>
+            <a href="formulario.html">Contacto</a>
+        </nav>
+    </div>
+    <form action="" class="formulario">
+        <div>
+        <input type="text" placeholder="ingresa tu nombre: ">
+        </div>
+        <div>
+            <input type="email" placeholder="ingresa tu correo: ">
+        </div>
+        <div>
+            <textarea placeholder="ingresa tu mensaje: "></textarea>
+        </div>
+        <button type="submit" id="enviar" onclick="enviarFormulario()">Enviar</button>
+    </form>
+    <script>
+        onclick="enviarFormulario()"
+        function enviarFormulario(){
+            alert("enviado correctamente!");
+        }
+    </script>
+</body>
+</html>
